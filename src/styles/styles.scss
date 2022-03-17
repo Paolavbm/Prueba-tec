@@ -1,0 +1,314 @@
+
+
+.list{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+    padding-left: 2em;
+    
+}
+
+
+.cont-card{
+    width: 11em;
+    padding: 2em;
+   
+}
+
+
+.me{
+    margin-right: 2.5em;
+    margin-bottom: 2.5em;
+    text-align: center;
+    
+    
+}
+
+.aja{
+    margin: auto;
+
+    text-decoration: none;
+ 
+    color: blanchedalmond
+}
+
+.card-id{
+    float: left;
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 1em !important;
+    background-color: thistle!important;
+  
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Domine&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap');
+font-family: 'Domine', serif;
+    text-transform:uppercase;
+
+}
+
+.back{
+  background-color: black;
+  opacity: 0.5;
+    margin-top: -2em;
+    color: antiquewhite;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.detalle-cont{
+    width: 40em;
+    background-color: thistle;
+    margin:auto;
+    height: 20em;
+    padding-top: 0;
+    margin-top: 2em;
+}
+
+.detalle-name{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Domine&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap');
+font-family: 'Domine', serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.id-detalle{
+    float:right;
+    margin-right: 2em;
+}
+
+.info{
+   display: flex;
+   @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Domine&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap');
+   font-family: 'Domine', serif;
+   text-transform:capitalize;
+   line-height: 0.5em;
+
+   h4{
+background-color:antiquewhite;
+padding: 10px;
+   }
+}
+
+.datos-random{
+padding-left: 2em;
+display: flex;
+ 
+
+.ju{
+    margin-right: 5em;
+    color: #5B006F;
+    font-weight: bold;
+    font-size: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Domine&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap');
+   font-family: 'Domine', serif;
+}
+}
+
+
+.btn-c{
+   border-style: none;
+   border-radius: 10px;
+   height: 2.5em;
+  font-weight: bold;
+  background-color:#5B006F;
+  color: thistle;
+    margin: auto;
+}
+
+.div-boton{
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.navv{
+background-color: #5B006F !important;
+height: 4.5em ;
+color: white !important;
+}
+
+nav{
+    color: white !important ;
+}
+
+// .busqueda{
+//     background-image: url('https://res.cloudinary.com/paolavbm/image/upload/v1647482392/lupa_1_hmwabo.png');
+//     background-repeat: no-repeat;
+//     background-position: 4px center;
+//     background-size: 20px;
+//     display: flex;
+//     align-items: center;
+//     width: 400px;
+//     padding-left: 28px;
+//     height: 45px;
+//     border-radius: 10px;
+//     display: inline-block;
+//     margin-left: 4em;
+//     margin-top: 2em;
+//    background-color: white;
+// }
+
+
+// .busqueda input{
+//     width: 100%;
+//     font-size: 0.9em;
+//     border: none;
+//     background-color: white;
+//     display: inline-block
+//   }
+
+//   .busqueda input:focus {
+//     outline: none;
+//   }
+
+//   .form{
+//       display: inline-block;
+
+//   }
+
+
+.buscador{
+    display: flex;
+
+    .header__searchInput{
+        width: 19.5em;
+        background-color: white;
+    }
+}
+
+.header__searchIcon{
+  margin-left: 0.5em;
+}
+
+
+.header__search{
+ 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 5px;
+   width: 60em;
+
+  }
+  .white{
+    color: #F3F3F3 !important;
+    text-decoration: none;
+    margin-top: 1em;
+}
+  
+  .header__searchInput {
+    height: 2em;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+
+  }
+
+  .correo{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 1em;
+    padding: 0.4em;
+    border-radius: 5px;
+}
+
+.password{
+    display: block;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 0.4em;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+
+.iconos{
+    
+    text-align: center;
+    margin-top: 1em;
+}
+
+.terminos{
+    font-size: 11px;
+    line-height: 2px;
+}
+.ya{
+    text-align: center;
+    font-size: 14px;
+}
+
+#boton{
+    background-color: inherit;
+    border-style: none;
+    margin: auto;
+    }
+
+
+    .delete{
+border-style: none;
+   width: 10em;
+   margin-top: 1em;
+   border-radius: 10px;
+   background-color: #5B006F;
+   color: #F3F3F3;
+    }
+
+    .editar{
+        border-style: none;
+        width: 10em;
+        border-radius: 10px;
+        background-color: plum;
+       
+    }
+
+   .too{
+width: 100%;
+padding: 0;
+   }
+
+   .cartita{
+       height: 70vh;
+       width: 13em;
+       border-radius: 1em !important;
+       background-color: thistle!important;
+     
+   @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Domine&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap');
+   font-family: 'Domine', serif;
+       text-transform:uppercase;
+   }
+
+   
+   .apodo{
+       text-align: center;
+
+
+       input{
+border: lightgray 1px solid;
+border-radius: 5px;
+       }
+
+       button{
+        border-radius: 5px;
+        border-style: none;
+        width: 5em;
+        height: 2em;
+        margin-left: 1em;
+        background-color: #5B006F;
+        color: #F3F3F3;
+       }
+
+       h1{
+          color: #5B006F;
+       }
+   }
